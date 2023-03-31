@@ -250,6 +250,7 @@ header {
   list-style-type: disc;
   margin-top: 5%;
   margin-bottom: 1%;
+  padding-right:25%;
 }
 
 .sublinksround > ul > li {
