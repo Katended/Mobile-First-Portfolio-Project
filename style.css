@@ -242,15 +242,8 @@ header {
 }
 
 .sublinksround > ul {
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: left;
-  flex-direction: row;
-  list-style-type: disc;
-  margin-top: 5%;
-  margin-bottom: 1%;
-  padding-right: 25%;
+  float: right;
+  display:inline-block;
 }
 
 .sublinksround > ul > li {
@@ -258,7 +251,6 @@ header {
   border: 1 solid #ebebff;
   border-radius: 7px;
   padding: 5px;
-  flex: auto;
   align-items: start;
   margin: 4px;
   text-align: center;
