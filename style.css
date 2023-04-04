@@ -277,8 +277,7 @@ div {
   align-items: start;
   margin-top: 5px;
   margin-bottom: 5px;
-  text-align: left;
-  align-items: start;
+  text-align: left; 
 }
 
 .sublinksround > ul > li > a {
@@ -416,7 +415,6 @@ button :disabled {
   margin-top: 10%;
   padding-top: 30%;
   padding-left: 9%;
-  display: inline-block;
   border-radius: 50px 0 0 0;
   background-color: #6070ff;
   background-size: 50%;
