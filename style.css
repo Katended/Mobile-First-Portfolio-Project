@@ -382,6 +382,80 @@ button :disabled {
   color: #5e6c84;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/contact-form-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  padding-top: 30%;
+  padding-left: 9%;
+  min-height: 140vh;
+  border-radius: 50px 0px 0px 0px;
+  background-color: #6070FF;
+  background-size: 50%;
+  background-position: 100% 43%;
+  align-items: center;
+  height: auto;
+}
+form{
+  width: inherit;  
+}
+.contact h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 52px;
+  text-align: center;
+  padding-right: 10%;  
+}
+
+.contact p {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  font-family: Poppins-Light, sans-serif;
+  margin-top: 5%;
+  margin-bottom: 13%;
+  padding-right: 10%;  
+}
+
+input[type=text] ,input[type=email] {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  border: 1px solid #2d9fd9;
+  width: 90%;
+  height: 45px;
+  font-size: 1em;
+  color: #172b4d;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+input[type=text]:focus {
+  outline: none;
+  border: 1px solid #a0d18c;
+  color: #172b4d;
+}
+
+textarea {
+  outline: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  border: 1px solid #2d9fd9;
+  width: 90%;
+  height: 60%;
+  font-size: 1em;  
+  padding: 5%;
+  font-family: inherit;
+  margin-bottom: 3%;
+}
+
+
 @media (max-width: 375px) {
   .switch {
     display: block;
