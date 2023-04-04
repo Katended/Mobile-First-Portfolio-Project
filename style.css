@@ -127,10 +127,12 @@ header {
   grid-template-columns: 1fr;
   grid-row-gap: 0.2%;
 }
-div{
+
+div {
   overflow: hidden;
-  padding:0px;
+  padding: 0;
 }
+
 .section1 > div {
   border: 1px solid #dfe1e6;
   border-radius: 15px;
@@ -257,33 +259,31 @@ div{
 
 .sublinksround > ul {
   padding: 0;
-  display: flex; 
-  gap:10px;
+  display: flex;
+  gap: 10px;
   flex-direction: row;
   list-style-type: disc;
   margin-top: 5%;
   margin-bottom: 1%;
-  padding-right: 10%;  
-  flex-wrap: wrap; 
+  padding-right: 10%;
+  flex-wrap: wrap;
 }
 
 .sublinksround > ul > li {
-
   background-color: #ebebff;
   border: 1 solid #ebebff;
   border-radius: 7px;
   padding: 10px;
   align-items: start;
-  margin-top: 5px; 
-  margin-bottom: 5px; 
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: left;
   align-items: start;
-  
 }
 
 .sublinksround > ul > li > a {
   color: #6070ff;
-  margin:0px;
+  margin: 0;
 }
 
 .section #details {
