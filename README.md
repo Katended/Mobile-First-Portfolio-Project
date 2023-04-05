@@ -30,7 +30,6 @@
 
 # 📖 Mobile First Project <a name="about-project"></a>
 
-> This is a personal portfolio project created using HTML,CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,15 +54,6 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Coming soon!
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -101,11 +91,23 @@ Open index.html using a live server.
 - GitHub: [@githubhandle](https://github.com/Katended)
 - LinkedIn: [LinkedIn](linkedin.com/in/katende-david-01627461)
 
+
+👤 Alex Waweru
+
+- GitHub: [@githubhandle](https://github.com/AleWaweru)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-waweru-2b2701180/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment <a name="live-demo"></a>
+
+You can deploy this project using:
+https://katended.github.io/mobilefirstproject2/Index.html
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add support non mobile devices
+- [ ] Add desktop version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +125,6 @@ If you like this project just give me a star ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 - **How soon are new features coming out?**
 
