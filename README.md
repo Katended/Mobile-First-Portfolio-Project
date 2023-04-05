@@ -30,7 +30,6 @@
 
 # 📖 Mobile First Project <a name="about-project"></a>
 
-> This is a personal portfolio project created using HTML,CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -123,7 +122,6 @@ If you like this project just give me a star ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 - **How soon are new features coming out?**
 
