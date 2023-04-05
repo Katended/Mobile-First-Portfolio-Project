@@ -107,7 +107,7 @@ https://katended.github.io/mobilefirstproject2/Index.html
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add support non mobile devices
+- [ ] Add desktop version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
