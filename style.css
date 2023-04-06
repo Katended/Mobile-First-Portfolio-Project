@@ -519,17 +519,6 @@ textarea {
   float: left;
 }
 
-
-/*
-@media (max-width: 375px) {
-  .switch {
-    display: block;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-  }
-} */
-
 @media (min-width: 768px) {
   #switch {
     display: none;
@@ -656,7 +645,6 @@ textarea {
     order: 1;
   }
 
-
   h2 {
     font-size: 2.5em;
     line-height: 1em;
@@ -759,8 +747,6 @@ textarea {
     margin-bottom: 2%;
     width: 60%;
   }
-
-
 
   .call-to-action {
     margin-top: 1.5rem;
