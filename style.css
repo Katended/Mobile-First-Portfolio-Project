@@ -55,7 +55,7 @@ body {
 }
 
 .nav-menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   width: 100%;
 }
@@ -197,9 +197,9 @@ div {
 }
 
 .section1 > h2 {
-  font-size: 32px;
+  font-size: 27px;
   font-family: Poppins-extrabold, sans-serif;
-  margin-top: 0.3em;
+  margin-top: 0.2em;
   margin-bottom: 0.7em;
 }
 
@@ -214,7 +214,7 @@ div {
 .section1 > p,
 .about > {
   text-decoration: solid;
-  margin-top: 0.93em;
+  margin-top: 0.5em;
   padding: 0;
 }
 
@@ -258,8 +258,8 @@ div {
 .sublinks .sublinksround {
   display: flex;
   flex-direction: row;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .sublinks > ul {
@@ -399,7 +399,7 @@ hr {
 
 .call-to-action {
   margin-top: 1.5rem;
-  border: 2px solid #5564eb;
+  border: 1px solid #afb7ff;
   border-radius: 8px;
   color: #396df2;
   justify-content: center;
@@ -519,6 +519,7 @@ textarea {
   float: left;
 }
 
+
 /*
 @media (max-width: 375px) {
   .switch {
@@ -569,6 +570,7 @@ textarea {
     list-style-type: disc;
     margin-top: 3%;
     margin-bottom: 1%;
+    direction: ltr;
   }
 
   .sublinksround > ul > li {
@@ -590,8 +592,21 @@ textarea {
     background-size: 100% auto;
     border-bottom-left-radius: 10% 10%;
     background-color: #fff;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 13%;
+    padding-right: 14%;
+  }
+
+  .intro > h1 {
+    font-size: 45px;
+    font-family: Poppins-extrabold, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.32em;
+    padding-right: 40%;
+  }
+
+  .intro > p {
+    text-decoration: solid;
+    font-size: 16px;
   }
 
   .imgalin {
@@ -626,7 +641,8 @@ textarea {
   .card-one,
   .card-two,
   .card-three,
-  .card-four {
+  .card-four,
+  .card-five {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
@@ -635,6 +651,11 @@ textarea {
     width: auto;
     gap: 5%;
   }
+
+  .switch {
+    order: 1;
+  }
+
 
   h2 {
     font-size: 2.5em;
@@ -651,7 +672,7 @@ textarea {
   }
 
   .grid-element {
-    margin-top: 7%;
+    margin-top: 10%;
   }
 
   .about {
@@ -686,6 +707,17 @@ textarea {
     margin-top: 5%;
   }
 
+  .languages {
+    display: flex;
+    width: 100%;
+    align-items: first baseline;
+    height: 4rem;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    flex-direction: row;
+  }
+
   .language-DK {
     display: flex;
     align-items: center;
@@ -711,14 +743,14 @@ textarea {
     background-image: url("./images/contact-form-background-shapes.svg");
     background-repeat: no-repeat;
     margin-top: 1%;
-    padding-top: 10%;
+    padding-top: 15%;
     padding-left: 1%;
-    border-radius: 50px 0 0 0;
+    border-radius: 0 0 0 0;
     background-color: #6070ff;
     background-size: 100%;
-    background-position: 80% 40%;
+    background-position: 85% 20%;
     align-items: center;
-    padding-bottom: 30%;
+    padding-bottom: 40%;
   }
 
   .contact > p {
@@ -728,17 +760,26 @@ textarea {
     width: 60%;
   }
 
-  .call-to-action-contact {
-    text-align: center;
-  }
+
 
   .call-to-action {
-    margin-top: 0.9rem;
-    text-align: center;
+    margin-top: 1.5rem;
+    border: 1px solid #afb7ff;
+    border-radius: 8px;
+    color: #396df2;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 0;
+    z-index: 1;
+    width: fit-content;
+    white-space: nowrap;
+    font-weight: bold;
   }
 
   form {
-    height: 70%;
+    height: 50%;
     width: 50%;
     margin: 0;
     text-align: center;
