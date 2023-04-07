@@ -739,7 +739,7 @@ textarea {
     background-position: 85% 25%;
     align-items: center;
     padding-bottom: 7%;
-    border-radius: 0px;
+    border-radius: 0;
   }
 
   .contact > p {
