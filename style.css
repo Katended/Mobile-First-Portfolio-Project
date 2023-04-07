@@ -253,7 +253,6 @@ div {
   margin-bottom: 10%;
   padding-right: 6%;
   padding-left: 6%;
- 
 }
 
 .language-skill > li > p {
@@ -752,15 +751,17 @@ textarea {
     padding-bottom: 7%;
     border-radius: 0;
   }
+
   .Logo {
     animation: rotate 5s;
   }
+
   .contact > p {
     color: #fff;
     margin-top: 2%;
     margin-bottom: 5%;
     width: 60%;
-     transition: margin-left 5s;
+    transition: margin-left 5s;
   }
 
   .call-to-action {
@@ -832,9 +833,9 @@ textarea {
   }
 
   .contact > p:hover {
-    margin-left:2%;
+    margin-left: 2%;
   }
-  
+
   @keyframes rotate {
     to {
       transform: rotate(360deg);
