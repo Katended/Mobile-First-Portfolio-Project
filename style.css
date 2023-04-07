@@ -57,7 +57,6 @@ body {
 .nav-menu {
   display: none;
   flex-direction: column;
- 
 }
 
 .nav-menu > li {
@@ -92,14 +91,14 @@ header {
   font-family: Poppins-semibold, sans-serif;
   font-size: 1.125em;
   color: #6070ff;
-  align-items:first baseline;
+  align-items: first baseline;
   flex-direction: row;
   justify-content: space-between;
   background-position: bottom 0;
   padding-left: 7%;
   padding-right: 7%;
   padding-top: 2%;
-  background-color:white;
+  background-color: white;
   height: 100%;
   flex-grow: 1;
 }
@@ -505,22 +504,20 @@ textarea {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  
 }
 
 #Logo {
-  width: 30%;  
+  width: 30%;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   color: #5564eb;
-  margin:0px;
-  display:block;
+  margin: 0;
+  display: block;
   background-color: white;
-  white-space: nowrap
-  
-  }
+  white-space: nowrap;
+}
 
 @media (min-width: 768px) {
   #switch {
@@ -530,14 +527,14 @@ textarea {
   .nav-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    
+    width: 50%;
   }
 
   .nav-menu {
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: end;
   }
 
   .nav-menu > li {
@@ -734,14 +731,15 @@ textarea {
     flex-direction: column;
     background-image: url("./images/contact-form-background-shapes.svg");
     background-repeat: no-repeat;
-    margin-top: 1%;
-    padding-top: 21%;
+    margin-top: 5%;
+    padding-top: 10%;
     padding-left: 1%;
     background-color: #6070ff;
     background-size: 100%;
-    background-position: 85% 20%;
+    background-position: 85% 25%;
     align-items: center;
     padding-bottom: 7%;
+    border-radius: 0;
   }
 
   .contact > p {
