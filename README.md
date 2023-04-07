@@ -30,6 +30,7 @@
 
 # 📖 Mobile First Project <a name="about-project"></a>
 
+This project aims to build a simple responsive portfolio website to showcase my personal projects for both desktop and smal sized screens.
 
 ## 🛠 Built With <a name="built-with"></a>
 
