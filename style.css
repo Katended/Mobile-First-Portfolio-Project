@@ -799,6 +799,14 @@ textarea {
     display: none;
   }
 
+  input[type=text],
+  input[type=email],
+  textarea {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
   form {
     height: 50%;
     width: 50%;
