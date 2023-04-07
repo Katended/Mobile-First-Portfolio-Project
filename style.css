@@ -751,6 +751,9 @@ textarea {
     padding-bottom: 7%;
     border-radius: 0;
   }
+  .Logo {
+    animation: rotate 5s;
+  }
 
   .contact > p {
     color: #fff;
