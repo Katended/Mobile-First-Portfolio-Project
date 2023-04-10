@@ -420,7 +420,6 @@ hr {
 button:hover {
   background-color: #5564eb;
   color: #fff;
-  box-shadow: 0 8px 16px 0 #dfe1e6;
 }
 
 button:active {
@@ -510,17 +509,8 @@ textarea {
   right: 1rem;
 }
 
-#Logo {
-  width: 30%;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  color: #5564eb;
-  margin: 0;
-  display: block;
-  background-color: white;
-  white-space: nowrap;
+.Logo {
+  width: 50%;
 }
 
 .imgdesk1,
@@ -762,11 +752,16 @@ textarea {
     border-radius: 0;
   }
 
+  .Logo {
+    animation: rotate 5s;
+  }
+
   .contact > p {
     color: #fff;
     margin-top: 2%;
     margin-bottom: 5%;
     width: 60%;
+    transition: margin-left 5s;
   }
 
   .call-to-action {
@@ -812,5 +807,38 @@ textarea {
     width: 50%;
     margin: 0;
     text-align: center;
+  }
+
+  button {
+    transition: background-color 4s;
+  }
+
+  button:hover {
+    background-color: #5564eb;
+    color: #fff;
+  }
+
+  button:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+
+  button :disabled {
+    background-color: #fff;
+    color: #5e6c84;
+  }
+
+  img:not(.Logo):hover {
+    transform: scale(1.02);
+  }
+
+  .contact > p:hover {
+    margin-left: 2%;
+  }
+
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
