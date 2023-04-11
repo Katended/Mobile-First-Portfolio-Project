@@ -311,6 +311,10 @@ div {
   margin: 0;
 }
 
+.sublinksround > ul > li > a:hover {
+  color: blue;
+}
+
 .section #details {
   text-decoration: solid;
   margin-left: 7%;
