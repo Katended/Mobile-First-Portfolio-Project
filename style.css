@@ -493,7 +493,7 @@ textarea {
   width: 90%;
   height: 55%;
   font-size: 1em;
-  padding: 5%;
+  padding: 4%;
   font-family: inherit;
 }
 
@@ -522,6 +522,17 @@ textarea {
 
 .imgmob1 {
   display: block;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 @media (min-width: 768px) {
