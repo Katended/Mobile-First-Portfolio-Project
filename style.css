@@ -110,7 +110,6 @@ header {
   padding: 6% 6%;
   background: url('./images/header-shapes-mobile.svg') 0 50px no-repeat;
   background-size: 100% auto;
-
   border-bottom-left-radius: 10% 10%;
   background-color: #fff;
   width: 100%;
@@ -345,7 +344,6 @@ div {
   width: 70%;
   text-align: left;
   margin-bottom: 0.3;
- 
 }
 
 .link-text {
@@ -849,6 +847,5 @@ textarea {
     width: 70%;
     text-align: left;
     margin-bottom: 0.3;
-   
   }
 }
