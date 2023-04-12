@@ -21,11 +21,11 @@
 
 a {
   text-decoration: none;
-  color: grey;
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
-  color: #172b4d;
+  color: #0058f1;
 }
 
 li {
@@ -110,6 +110,7 @@ header {
   padding: 6% 6%;
   background: url('./images/header-shapes-mobile.svg') 0 50px no-repeat;
   background-size: 100% auto;
+  height: 660px;
   border-bottom-left-radius: 10% 10%;
   background-color: #fff;
   width: 100%;
@@ -272,7 +273,7 @@ div {
   justify-content: space-around;
   flex-direction: row;
   list-style-type: disc;
-  color: #ebebff;
+  color: #000000;
   margin-left: 5%;
   margin-bottom: 2em;
 }
@@ -307,12 +308,8 @@ div {
 }
 
 .sublinksround > ul > li > a {
-  color: #6070ff;
+  color: #000000;
   margin: 0;
-}
-
-.sublinksround > ul > li > a:hover {
-  color: blue;
 }
 
 .section #details {
@@ -347,7 +344,6 @@ div {
   margin-top: 1rem;
   width: 70%;
   text-align: left;
-  margin-bottom: 0.3;
 }
 
 .link-text {
@@ -409,7 +405,7 @@ hr {
   margin-top: 1.5rem;
   border: 1px solid #afb7ff;
   border-radius: 8px;
-  color: #396df2;
+  color: #000000;
   justify-content: center;
   font-size: 1rem;
   padding: 1rem;
@@ -497,7 +493,7 @@ textarea {
   width: 90%;
   height: 55%;
   font-size: 1em;
-  padding: 4%;
+  padding: 5%;
   font-family: inherit;
 }
 
@@ -526,17 +522,6 @@ textarea {
 
 .imgmob1 {
   display: block;
-}
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
 }
 
 @media (min-width: 768px) {
@@ -589,7 +574,7 @@ textarea {
 
   .sublinksround > ul > li {
     background-color: #ebebff;
-    border: 1 solid #ebebff;
+    border: 1 solid #a5a5f4;
     border-radius: 7px;
     padding: 7px;
     align-items: start;
@@ -783,7 +768,7 @@ textarea {
     margin-top: 1.5rem;
     border: 1px solid #afb7ff;
     border-radius: 8px;
-    color: #396df2;
+    color: #000000;
     justify-content: center;
     font-size: 1rem;
     padding: 1rem;
@@ -844,7 +829,7 @@ textarea {
   }
 
   img:not(.Logo):hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 
   .contact > p:hover {
@@ -855,12 +840,5 @@ textarea {
     to {
       transform: rotate(360deg);
     }
-  }
-
-  .link-container {
-    margin-top: 1rem;
-    width: 70%;
-    text-align: left;
-    margin-bottom: 0.3;
   }
 }
