@@ -273,7 +273,7 @@ div {
   justify-content: space-around;
   flex-direction: row;
   list-style-type: disc;
-  color: #000000;
+  color: #000;
   margin-left: 5%;
   margin-bottom: 2em;
 }
@@ -308,7 +308,7 @@ div {
 }
 
 .sublinksround > ul > li > a {
-  color: #000000;
+  color: #000;
   margin: 0;
 }
 
@@ -405,7 +405,7 @@ hr {
   margin-top: 1.5rem;
   border: 1px solid #afb7ff;
   border-radius: 8px;
-  color: #000000;
+  color: #000;
   justify-content: center;
   font-size: 1rem;
   padding: 1rem;
@@ -768,7 +768,7 @@ textarea {
     margin-top: 1.5rem;
     border: 1px solid #afb7ff;
     border-radius: 8px;
-    color: #000000;
+    color: #000;
     justify-content: center;
     font-size: 1rem;
     padding: 1rem;
