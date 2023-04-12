@@ -766,13 +766,13 @@ textarea {
 
   .call-to-action {
     margin-top: 1.5rem;
-    border: 1px solid #afb7ff;
+    border: 1px solid #000745;
     border-radius: 8px;
     color: #000;
     justify-content: center;
     font-size: 1rem;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #370000;
     margin-bottom: 0;
     z-index: 1;
     width: fit-content;
