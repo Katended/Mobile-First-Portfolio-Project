@@ -97,6 +97,11 @@ Open index.html using a live server.
 - GitHub: [@githubhandle](https://github.com/AleWaweru)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-waweru-2b2701180/)
 
+👤 Sami ullah
+
+- GitHub: [@githubhandle](https://github.com/samiullah123)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
