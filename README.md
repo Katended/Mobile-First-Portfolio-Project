@@ -31,6 +31,8 @@
 
 This project aims to build a simple responsive portfolio website to showcase my personal projects for both desktop and smal sized screens.
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7779f023b8b149c2af236d0b04686d59" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## 🛠 Built With <a name="built-with"></a>
 
 1. HTML
