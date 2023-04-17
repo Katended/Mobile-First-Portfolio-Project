@@ -54,10 +54,28 @@ body {
   flex-direction: column;
 }
 
-.nav-menu {
-  display: none;
+.nav-container {
+  display: flex;
   flex-direction: column;
 }
+
+.nav-menu {
+  display: none;  
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  /* font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); */
+}
+
+
 
 .nav-menu > li {
   display: flex;
@@ -502,7 +520,7 @@ textarea {
   margin-left: 6%;
 }
 
-#humbuger {
+.humbuger {
   display: block;
   position: fixed;
   top: 1rem;
@@ -523,9 +541,21 @@ textarea {
 .imgmob1 {
   display: block;
 }
-
+.btn-close {
+  font-family: inherit;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border:none;
+  background: none;
+  display:none;
+}
+.btn-close-show {
+  display:inline;
+}
 @media (min-width: 768px) {
-  #humbuger {
+  .humbuger {
     display: none;
   }
 
