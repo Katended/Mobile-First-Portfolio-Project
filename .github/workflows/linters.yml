@@ -49,7 +49,7 @@ jobs:
   eslint:
     name: ESLint
     runs-on: ubuntu-22.04
-    steps:git 
+    steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
