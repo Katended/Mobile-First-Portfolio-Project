@@ -54,17 +54,12 @@ body {
   flex-direction: column;
 }
 
-.nav-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .nav-menu {
-  display: none;  
+  display: none;
 }
 
 .nav-menu-show {
-  display: inline-block;  
+  display: inline-block;
 }
 
 .nav-menu.active {
@@ -72,12 +67,12 @@ body {
 }
 
 .nav-container-cover {
-  position: absolute;
+  position: fixed;
   display: inline-block;
   line-height: 77px;
   font-size: 2em;
-  padding-top:15%;
-  padding-left:10%;
+  padding-top: 15%;
+  padding-left: 10%;
   top: 0;
   left: 0;
   right: 0;
@@ -86,11 +81,11 @@ body {
   width: 100%;
   background: rgba(23, 5, 217, 0.8);
   backdrop-filter: blur(5px);
-  z-index: 2;
+  z-index: 9;
 }
 
 .nav-menu-white > li > a {
-  color:white;
+  color: white;
 }
 
 .nav-menu > li {
@@ -103,8 +98,6 @@ body {
   font-size: 0.7em;
   color: #344563;
 }
-
-
 
 .bar {
   display: block;
@@ -539,10 +532,11 @@ textarea {
   position: fixed;
   top: 1rem;
   right: 1rem;
+  margin: 0;
 }
 
 .humbuger-hide {
-  display: none; 
+  display: none;
 }
 
 .Logo {
@@ -559,24 +553,22 @@ textarea {
 .imgmob1 {
   display: block;
 }
+
 .btn-close {
-  font-family: inherit;
-  top: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  border:none;
-  background: none;
-  display:none;
-  margin:0px;
+  display: none;
 }
+
 .btn-close-show {
-  display:inline;
-  display: block;
+  display: flex;
   position: fixed;
-  top: 1rem;
-  right: 1rem;
+  top: 0.4em;
+  font-size: 1.9em;
+  margin: 0;
+  z-index: 9;
+  right: 1.1rem;
+  height: 10px;
 }
+
 @media (min-width: 768px) {
   .humbuger {
     display: none;
