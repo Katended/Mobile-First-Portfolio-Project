@@ -17,7 +17,14 @@ document.addEventListener("DOMContentLoaded",function(){
      
     });
 
-   
+    navBtn.addEventListener('click',function() {
+      navMenu.classList.add('nav-container'); 
+       navBtn.classList.toggle('btn-close-show');   
+       humbugerDiv.classList.remove('humbuger-hide');  
+       navMenu.classList.toggle('nav-container');
+       navUl.classList.toggle('nav-menu'); 
+       navMenu.classList.toggle('nav-container-cover');     
+    });
 
 
 
