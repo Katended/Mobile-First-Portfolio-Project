@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Katende</title>
+    <title>David Katende's Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
         integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-</head>
+      </head>
 <body>
     <header>
-      <a href="#" ><img class="Logo" src="./images/port.PNG"></a>
-        <nav  class="nav-container">
+      <a href="#" ><img class="Logo"  alt="Portfolio: Portfolio of David Katende" src="./images/port.PNG"></a>
+        <nav  class="nav-container">          
+          
           <ul class="nav-menu">
+
+            <li >    
+              <a href="#about-me" >About</a>    
+            </li>
+
             <li>    
               <a href="#portfolio">Portfolio</a>    
             </li>    
-            <li >    
-              <a href="#about" >About</a>    
-            </li>    
+               
             <li >    
               <a href="#contact" >Contact</a>    
             </li>    
           </ul>
-            <div id="humbuger">
+          </nav>
+          
+            <div class="humbuger">                           
               <span class="bar"></span>
               <span class="bar"></span>
               <span class="bar"></span>
-            </div>            
+            </div>
+            <span class="btn-close">&times;</span>            
         </nav>
     </header>
-    <section class="intro">
+    <section class="intro" >
         <h1>I’m Alexandra.<br> Glad to see you!</h1>
         <p>I’m a software developer! I can help you build a product , feature or website Look through<br>
             some of my work and experience! If you like what you see and have a project you need<br>coded, don’t hesitate
@@ -44,7 +51,7 @@
                       
             <ul class="social-container social-container-M">
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img
+                <a href="#" target="_blank" rel="noopener"><img
                     class="social twitter" src="./images/twitter.png" alt="twitter"></a>
               </li>
               <li>
@@ -53,7 +60,7 @@
                     alt="linkedin"></a>
               </li>
               <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener">
                   <img class="social meduim move" src="./images/m.png" alt="medium"></a>
               </li>
               <li>
@@ -66,18 +73,18 @@
               </li>
             </ul>
     </section>
-    <section class="section1"> 
+    <section class="section1" id="portfolio"> 
       <div class="card-one">
         <div>
-          <img class="imgalin imgdesk1" src="./images/snapshoot-portfolio-desktop1.png">
-          <img class="imgalin imgmob1" src="./images/snapshoot-portfolio-mobile1.png">
+          <img class="imgalin imgdesk1" src="./images/snapshoot-portfolio-desktop1.png" alt="Personalised reads project">
+          <img class="imgalin imgmob1" src="./images/snapshoot-portfolio-mobile1.png" alt="Personalised reads project">
         </div>       
           <div class="grid-element ">
           <h2>Tonic</h2>
           <span class="sublinks">
               <span><b>CANOPY</b></span>
               <ul>
-                  <li><span><a href="#">Bank End Dev</a></span></li> 
+                  <li><span><a href="#">Back End Dev</a></span></li> 
                   <li><span><a href="#">2015</a></span></li>                        
               </ul>
           </span>
@@ -95,8 +102,8 @@
 
       <div class="card-two">  
         <div class="switch">
-          <img class="imgalin imgdesk2" src="./images/snapshoot-portfolio-desktop2.png">
-          <img class="imgalin imgmob2" src="./images/snapshoot-portfolio-mobile2.png">
+          <img class="imgalin imgdesk2" src="./images/snapshoot-portfolio-desktop2.png" alt="Experimental content creation feature">
+          <img class="imgalin imgmob2" src="./images/snapshoot-portfolio-mobile2.png" alt="Experimental content creation feature">
         </div>      
         <div class="grid-element">
           <h2>Multi-Post Stories</h2>
@@ -123,8 +130,8 @@
 
       <div class="card-three">
         <div>
-          <img class="imgalin imgdesk3" src="./images/snapshoot-portfolio-desktop3.svg">
-          <img class="imgalin imgmob3" src="./images/snapshoot-portfolio-mobile3.png">
+          <img class="imgalin imgdesk3" src="./images/snapshoot-portfolio-desktop3.svg" alt="Facebook Virtual Reality app">
+          <img class="imgalin imgmob3" src="./images/snapshoot-portfolio-mobile3.png" alt="Facebook Virtual Reality app">
         </div>       
           <div class="grid-element">
             <h2>Facebook 360</h2>
@@ -150,8 +157,8 @@
 
       <div class="card-four">
         <div class="switch">
-          <img class="imgalin imgdesk4" src="./images/snapshoot-portfolio-desktop4.png">
-          <img class="imgalin imgmob4" src="./images/snapshoot-portfolio-mobile4.png">
+          <img class="imgalin imgdesk4" src="./images/snapshoot-portfolio-desktop4.png" alt="Uber navigation assitance app">
+          <img class="imgalin imgmob4" src="./images/snapshoot-portfolio-mobile4.png" alt="Uber navigation assitance app">
         </div>              
         <div class="grid-element">
           <h2>Uber Navigation</h2>
@@ -176,7 +183,7 @@
        
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about-me">
       
       <div class="card-five">
       <div>
@@ -220,19 +227,19 @@
               </ul>
            <div class="skills">
               <ul class="language-skill language-skill-DK ">
-                <li><img src="./images/icons/js.png" alt="javascripticon"></li>
+                <li><img src="./images/icons/js.png" alt="javascript icon"></li>
                 <li>
                   <p>JavaScript</p>
                 </li>
               </ul>
               <ul class="language-skill language-skill-DK ">
-                <li><img src="./images/icons/html.png" alt="htmlicon"></li>
+                <li><img src="./images/icons/html.png" alt="html icon"></li>
                 <li>
                   <p>HTML</p>
                 </li>
               </ul>
               <ul class="language-skill language-skill-DK">
-                <li class=""><img src="./images/icons/css.png" alt="cssicon"></li>
+                <li class=""><img src="./images/icons/css.png" alt="css icon"></li>
                 <li>
                   <p>CSS</p>
                 </li>
@@ -254,15 +261,22 @@
               <hr>          
        </div>       
     </section>
-    <section class="contact">   
+    <section class="contact" id="contact">   
       <h1 >Contact me</h1>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
       <form action="https://formspree.io/f/mqkoywbg" method="POST" class="pure-form" name="">            
-          <input type="text" class="input-rounded" placeholder="Lorem Ipsum" maxlength="30" name="name" required>                          
-          <input  type="email" class="input-rounded" placeholder="loremipsum@gmail.com" required>             
-          <textarea name="message" maxlength="500" placeholder="Write your message here"  required></textarea>
+          <label for='Name' class="visuallyhidden">
+            <input type="text" class="input-rounded" placeholder="Name" maxlength="30" name="name" required>                          
+         </label>
+          <label for='email' class="visuallyhidden">
+              <input  type="email" class="input-rounded" placeholder="Email Address" required>             
+          </label>
+            <label for='message'class="visuallyhidden">
+            <textarea name="message" maxlength="500" placeholder="Write your message here"  required></textarea>
+          </label>
           <div class="call-to-action-contact"><button type="submit" class="call-to-action">Get in touch</button><div>
       </form>
     </section>
+    <script src="./js/main.js"></script>
 </body>
 </html>
