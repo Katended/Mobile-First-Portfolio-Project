@@ -1,48 +1,45 @@
-.subtittle { 
-  margin-right:2%;
+.subtittle {
+  margin-right: 2%;
   float: left;
 }
 
-h2.popUp{
-  margin-top:10%;
-  margin-bottom:10%;
-  width:50
+h2.popUp {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 50;
 }
 
 .popupContainer {
-  position: fixed;  
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
-  width: 92%;
+  width: 95%;
   z-index: 2;
-  padding-left:0.5rem;
-  padding-right:0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   background: #fff;
   justify-content: start;
-  margin-right:3%;
-  margin-left:3%;
-  margin-top:4%; 
-  border: 1px solid #DFE1E6;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 4%;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
-  display:flex;
+  display: flex;
   flex-direction: column;
- 
-  
 }
 
 .projectPopup {
-  display: grid;  
-  height: 100%; 
-  width: 100%;
-  position: fixed; 
-  padding:0px;
-  margin:0px;  
-  background-color:  #020a58;
+  display: grid;
+  height: 100%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  background-color: #020a58;
 }
 
-.uil-multiply{
-  float:right;
+.uil-multiply {
+  float: right;
 }
 
 .popupLinkContainer {
@@ -50,28 +47,27 @@ h2.popUp{
   flex-direction: row;
   justify-content: space-between;
   justify-content: start;
-  align-items:start;
-  width:100%;
+  align-items: start;
+  width: 100%;
 }
 
 .popupLinkContainer a {
-  margin-top:6%;
-  border: none;
-  color:#396DF2;
+  margin: 4%;
+  color: #396df2;
   padding: 0.5rem 0.5rem;
   text-align: center;
   cursor: pointer;
-  border: 1px solid #396DF2;
-  margin:5px;
+  border: 1px solid #396df2;
+  border-radius: 9px;
 }
 
 .popupLinkContainer a:focus {
-  background-color: #020a58; 
+  background-color: #020a58;
 }
 
 .popupLinkContainer a:hover {
-  background-color: #020a58; 
-  color:white;
+  background-color: #020a58;
+  color: white;
   transition: 0.2s;
 }
 
@@ -84,14 +80,12 @@ h2.popUp{
 #closeBtn {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
-  position: absolute; 
+  position: absolute;
   cursor: pointer;
   transition: 0.1s;
-  float:right;  
-  top:5%;
-  right:10%;
-  font-size: 2em;  
-
+  float: right;
+  top: 2%;
+  right: 10%;
 }
 
 #closeBtn:hover {
@@ -100,76 +94,65 @@ h2.popUp{
 }
 
 .btnIcons {
-  max-width:60%;
-  height:auto;
+  max-width: 60%;
+  height: auto;
 }
-
 
 .sublinks > ul {
   padding: 0;
   display: flex;
-  width: 70%;
+  width: 50%;
   justify-content: space-around;
   flex-direction: row;
   list-style-type: disc;
   color: #000;
   margin-left: 3%;
-  margin-bottom: 0.5em;
+  margin-bottom: 2%;
+  direction: ltr;
 }
 
 .sublinks > ul > li {
   list-style-type: disc;
-  left:5%;  
-  color: #7A869A;
+  left: 5%;
+  color: #7a869a;
 }
 
 @media (min-width: 768px) {
-
-
   .popupContainer {
-    width:auto;
-    padding: 1rem;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    margin-right:5px;
-    margin-left:4px;
-    margin-top:4%;
-    align-items: center;
-    border: 1px solid #DFE1E6;
-    border-radius: 16px;
-    display:grid;
+    display: flex;
+    flex-direction: column;
   }
-  sublinks {
-    font-size: 3em;
+
+  .bottomflex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    height: fit-content;
   }
-  sublinks > ul > li {
-    list-style-type: disc;
-    position: relative;
-    left: -3px;
-    color: #7A869A;
-    
-  }
+
+  .bottomflex > * { flex: 1; }
 
   h2.popUp {
     font-size: 3em;
     margin-top: 2%;
-    margin-bottom: 2%;  
+    margin-bottom: 2%;
   }
 
   h2 {
-    
     line-height: 0.8em;
     font-family: Poppins-extrabold, sans-serif;
-      
   }
-  .img {    
-    width:60%;
+
+  .linkdiv {
+    flex: 1;
   }
 
   img:not(.Logo):hover {
-    transform:none;
+    transform: none;
+  }
+
+  .sublinksround > ul {
+    margin-top: 1%;
   }
 }
