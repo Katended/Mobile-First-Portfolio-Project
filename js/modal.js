@@ -1,6 +1,8 @@
+const bodyTag = document.querySelector('body');
+const worksContainter = document.getElementById('portfolio');
+
 const defaultWorks = [
   {
-   
     title: 'Tonic',
     subtitle: 'CANOPY',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -33,7 +35,6 @@ const defaultWorks = [
     dataset: 2,
   },
   {
-   
     title: 'Multi-Post Stories',
     subtitle: 'Uber',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
