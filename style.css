@@ -313,19 +313,17 @@ div {
 .sublinks > ul > li {
   list-style-type: disc;
   position: relative;
-  left: -3px;
   color: #7a869a;
 }
 
 .sublinksround > ul {
   padding: 0;
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-direction: row;
   list-style-type: disc;
   margin-top: 5%;
   margin-bottom: 1%;
-  padding-right: 10%;
   flex-wrap: wrap;
 }
 

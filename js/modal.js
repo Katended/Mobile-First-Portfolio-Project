@@ -141,9 +141,9 @@ function windowModal(e) {
   const subSectionSpan2 = createElement('span', 'subtittle');
   subSectionSpan2.innerHTML = projectCardInfo.subtitle;
   subSectionSpan1.appendChild(subSectionSpan2);
-  const employmentHistory = createList(projectCardInfo.employment);
+  const employmentHistory = createList(projectCardInfo.employment, 'sublinks2');
   subSectionSpan1.appendChild(employmentHistory);
-  const imgDiv = createElement('span', 'item2');
+  const imgDiv = createElement('div', 'item2');
 
   // create image
   const imgDesk = createElement('img');
@@ -179,11 +179,11 @@ function windowModal(e) {
   linkDiv.appendChild(popupLinkContainer);
   const liveLink = createElement('a', 'liveLink');
   liveLink.innerHTML = 'See live&nbsp;&nbsp;<img  src="/images/icons/live.png" size="50%">';
-  liveLink.href = 'https://katended.github.io/mobilefirstproject2/Index.html';
+  liveLink.href = '#';
   popupLinkContainer.appendChild(liveLink);
   const sourceLink = createElement('a', 'sourceLink');
   sourceLink.innerHTML = 'See source&nbsp;&nbsp;<img  src="/images/icons/git.png" class="btnIcons">';
-  sourceLink.href = 'https://katended.github.io/mobilefirstproject2/';
+  sourceLink.href = '#';
   popupLinkContainer.appendChild(sourceLink);
   docFrag.appendChild(cardContainter);
   projectPopup.appendChild(docFrag);

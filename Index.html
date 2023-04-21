@@ -166,7 +166,7 @@
     <section class="contact" id="contact">   
       <h1 >Contact me</h1>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
-      <form action="https://formspree.io/f/mqkoywbg" method="POST" class="pure-form" name="">            
+      <form  class="pure-form" id="submit" onsubmit="event.preventDefault();">            
           <label for='Name' class="visuallyhidden">
             <input type="text" class="input-rounded" placeholder="Name" maxlength="30" name="name" required>                          
          </label>
@@ -176,10 +176,11 @@
             <label for='message'class="visuallyhidden">
             <textarea name="message" maxlength="500" placeholder="Write your message here"  required></textarea>
           </label>
-          <div class="call-to-action-contact"><button type="submit" class="call-to-action">Get in touch</button><div>
+          <div class="call-to-action-contact"><button type="submit" OnClick ="sendForm()" class="call-to-action">Get in touch</button><div>
       </form>
     </section>
     <script src="./js/main.js"></script>
     <script src="./js/modal.js"></script>
+
 </body>
 </html>
