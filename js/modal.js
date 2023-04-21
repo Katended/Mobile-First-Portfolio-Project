@@ -143,18 +143,20 @@ function windowModal(e) {
   subSectionSpan1.appendChild(subSectionSpan2);
   const employmentHistory = createList(projectCardInfo.employment);
   subSectionSpan1.appendChild(employmentHistory);
-  const imgDiv = createElement('div', 'item2');
-  cardContainter.appendChild(imgDiv);
+  const imgDiv = createElement('span', 'item2');
 
   // create image
   const imgDesk = createElement('img');
   imgDesk.src = projectCardInfo.imgdesk;
-  imgDesk.classList.add('imgalin', `imgdesk${parseInt(projectCardInfo.dataset + 1, 10)}`);
+  imgDesk.classList.add('imgsize', `imgdesk${parseInt(projectCardInfo.dataset + 1, 10)}`);
   imgDiv.appendChild(imgDesk);
   const imgMob = createElement('img');
   imgMob.src = projectCardInfo.imgmob;
   imgMob.classList.add('imgalin', `imgmob${parseInt(projectCardInfo.dataset + 1, 10)}`);
   imgDiv.appendChild(imgMob);
+
+  cardContainter.appendChild(imgDiv);
+
   const subSectionDiv = createElement('div', 'grid-element');
   cardContainter.appendChild(subSectionDiv);
   // surround div
