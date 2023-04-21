@@ -1,0 +1,301 @@
+.subtittle {
+  margin-right: 2%;
+  float: left;
+}
+
+h2.popUp {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 500px;
+  font-size: 2em;
+}
+
+.popupContainer {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 84%;
+  width: 100vw;
+  z-index: 2;
+  padding-left: 0.5em;
+  padding-right: 2em;
+  background: #fff;
+  justify-content: start;
+  margin-right: 6%;
+  margin-left: 1%;
+  margin-top: 4%;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+p {
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.5;
+}
+
+.projectPopup {
+  display: grid;
+  height: 100%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  background-color: #020a58;
+}
+
+.uil-multiply {
+  float: right;
+}
+
+.popupLinkContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+}
+
+.popupLinkContainer a {
+  margin: 2%;
+  color: #396df2;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #396df2;
+  border-radius: 9px;
+}
+
+.popupLinkContainer a:focus {
+  background-color: #020a58;
+}
+
+.popupLinkContainer a:hover {
+  background-color: #020a58;
+  color: white;
+  transition: 0.2s;
+}
+
+.popupLinkContainer a:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
+#closeBtn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.1s;
+  float: right;
+  top: 2%;
+  right: 10%;
+}
+
+#closeBtn:hover {
+  scale: 1.3;
+  font-weight: 700;
+}
+
+.btnIcons {
+  max-width: 60%;
+  height: auto;
+}
+
+.sublinks > ul {
+  display: flex;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  flex-direction: row;
+  list-style-type: disc;
+  color: #000;
+  margin-bottom: 2%;
+  margin-left: 100px;
+  justify-content: start;
+  align-items: start;
+  gap: 10%;
+}
+
+.sublinksround > ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: disc;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  padding-right: 10%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 0.8em;
+}
+
+.sublinksround > ul > li {
+  color: #7a869a;
+}
+
+@media (min-width: 768px) {
+  .subtittle {
+    margin-left: 5%;
+    width: 50px;
+  }
+
+  p {
+    font-size: 1em;
+    margin-top: 2%;
+    margin-bottom: 1px;
+  }
+
+  .popupLinkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: end;
+    width: 90%;
+    height: 100vh;
+    align-items: start;
+    left: 50%;
+  }
+
+  .popupContainer {
+    position: fixed;
+    top: 0;
+    left: 20%;
+    height: 98%;
+    width: 53%;
+    z-index: 2;
+    padding-left: 0.5rem;
+    padding-right: 0.9rem;
+    background: #fff;
+    justify-content: start;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1%;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: scroll;
+  }
+
+  .popupLinkContainer a {
+    margin: 1%;
+    color: #396df2;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #396df2;
+    border-radius: 9px;
+    font-size: 0.9em;
+    width: 250px;
+  }
+
+  .imgsize {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 17.5rem;
+    object-fit: contain;
+    margin-top: 0.4em;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-height: 59%;
+  }
+
+  .bottomflex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    width: 94%;
+    height: fit-content;
+    justify-content: flex-start;
+    align-content: space-around;
+    position: absolute;
+    top: 74%;
+    left: 6%;
+  }
+
+  .bottomflex > * { flex: 1.1; }
+
+  h2.popUp {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+  }
+
+  h2 {
+    line-height: 0.8em;
+    font-family: Poppins-extrabold, sans-serif;
+  }
+
+  .linkdiv {
+    flex: 1;
+  }
+
+  img:not(.Logo):hover {
+    transform: none;
+  }
+
+  .sublinksround > ul {
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    list-style-type: disc;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding-right: 10%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .sublinks > ul {
+    display: flex;
+    padding: 0;
+    position: absolute;
+    width: 50%;
+    flex-direction: row;
+    list-style-type: disc;
+    color: #000;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    justify-content: start;
+    align-items: start;
+    gap: 9%;
+  }
+
+  .sublinks > ul > li {
+    padding-left: 0.9em;
+  }
+
+  li span {
+    position: relative;
+    left: -10px;
+  }
+
+  .popupLinkContainer a:focus {
+    background-color: #020a58;
+    color: white;
+  }
+
+  .popupLinkContainer a:hover {
+    background-color: #020a58;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .popupLinkContainer a:disabled {
+    background-color: #f4f1f0;
+    border: none;
+    color: #5b5957;
+  }
+}

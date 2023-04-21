@@ -25,7 +25,13 @@ a {
 }
 
 a:hover {
-  color: #0058f1;
+  color: white;
+  background: #2230d2;
+}
+
+a:disabled {
+  color: #5e6c84;
+  background: white;
 }
 
 li {
@@ -169,6 +175,7 @@ header {
 .imgalin {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2%;
   width: 100%;
 }
 
@@ -306,18 +313,17 @@ div {
 .sublinks > ul > li {
   list-style-type: disc;
   position: relative;
-  left: -3px;
+  color: #7a869a;
 }
 
 .sublinksround > ul {
   padding: 0;
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-direction: row;
   list-style-type: disc;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 1%;
-  padding-right: 10%;
   flex-wrap: wrap;
 }
 
@@ -428,13 +434,12 @@ hr {
 
 .call-to-action {
   margin-top: 1.5rem;
-  border: 1px solid #922c00;
+  border: 1px solid #2230d2;
   border-radius: 8px;
-  color: #000;
+  color: #2230d2;
   justify-content: center;
   font-size: 1rem;
   padding: 1rem;
-  background-color: #b1b8ff;
   margin-bottom: 0;
   z-index: 1;
   width: fit-content;
@@ -443,7 +448,7 @@ hr {
 }
 
 button:hover {
-  background-color: #5564eb;
+  background-color: #2230d2;
   color: #fff;
 }
 
@@ -809,22 +814,6 @@ textarea {
     transition: margin-left 5s;
   }
 
-  .call-to-action {
-    margin-top: 1.5rem;
-    border: 1px solid #000745;
-    border-radius: 8px;
-    color: #000;
-    justify-content: center;
-    font-size: 1rem;
-    padding: 1rem;
-    background-color: #feaeae;
-    margin-bottom: 0;
-    z-index: 1;
-    width: fit-content;
-    white-space: nowrap;
-    font-weight: bold;
-  }
-
   .imgdesk1,
   .imgdesk2,
   .imgdesk3,
@@ -859,13 +848,13 @@ textarea {
   }
 
   button:hover {
-    background-color: #5564eb;
-    color: #0d00c9;
+    background-color: #0d00c9;
+    color: white;
   }
 
   button:active {
-    background-color: #2230d2;
-    color: #fff;
+    background-color: white;
+    color: #2230d2;
   }
 
   button :disabled {
