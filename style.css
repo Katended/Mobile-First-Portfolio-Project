@@ -55,6 +55,28 @@ body {
   background-color: #f7f7f9;
 }
 
+.errorMessage {
+  color: white;
+  font-size: 0.75rem;
+  margin-bottom:5px;
+  width:100%;
+  padding:3px;
+  border-radius: 10px;
+  position:relative;
+  z-index: 9;
+  top:20%;
+  background-color:red;
+  vertical-align: middle;
+  display:none;
+  margin: 0;
+} 
+
+.submitContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .nav-container {
   display: flex;
   flex-direction: column;
