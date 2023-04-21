@@ -58,7 +58,6 @@ body {
 .errorMessage {
   color: white;
   font-size: 0.75rem;
-  margin-bottom: 5px;
   width: 100%;
   padding: 3px;
   border-radius: 10px;
