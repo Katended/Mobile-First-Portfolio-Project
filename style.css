@@ -71,7 +71,7 @@ body {
 }
 
 .fadeOut {
-  -webkit-animation-name: fadeOut;
+  -webkit-animation-name: fadeout;
   animation-name: fadeOut;
 }
 
@@ -466,6 +466,7 @@ hr {
   white-space: nowrap;
   font-weight: bold;
 }
+
 .call-to-action-form {
   margin-top: 1.5rem;
   border: 1px solid #2230d2;
