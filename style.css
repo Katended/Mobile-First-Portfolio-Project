@@ -70,12 +70,6 @@ body {
   margin: 0;
 }
 
-.submitContainer {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
 .nav-container {
   display: flex;
   flex-direction: column;
