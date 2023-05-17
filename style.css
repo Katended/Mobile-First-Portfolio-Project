@@ -55,6 +55,26 @@ body {
   background-color: #f7f7f9;
 }
 
+.errorMessage {
+  color: white;
+  font-size: 0.75rem;
+  width: 100%;
+  padding: 3px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 9;
+  top: 20%;
+  background-color: red;
+  vertical-align: middle;
+  display: none;
+  margin: 0;
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeout;
+  animation-name: fadeOut;
+}
+
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -433,6 +453,21 @@ hr {
 }
 
 .call-to-action {
+  margin-top: 1.5rem;
+  border: 1px solid #2230d2;
+  border-radius: 8px;
+  color: #2230d2;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  z-index: 1;
+  width: fit-content;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.call-to-action-form {
   margin-top: 1.5rem;
   border: 1px solid #2230d2;
   border-radius: 8px;

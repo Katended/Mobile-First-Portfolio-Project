@@ -166,21 +166,22 @@
     <section class="contact" id="contact">   
       <h1 >Contact me</h1>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
-      <form  class="pure-form" id="submit" onsubmit="event.preventDefault();">            
+      <form action="https://formspree.io/f/mqkoywbg" class="pure-form" id="myform" name="myform" method="POST">            
           <label for='Name' class="visuallyhidden">
-            <input type="text" class="input-rounded" placeholder="Name" maxlength="30" name="name" required>                          
+            <input type="text" class="input-rounded" placeholder="Name" maxlength="30" value="" name="name" required>                          
          </label>
-          <label for='email' class="visuallyhidden">
-              <input  type="email" class="input-rounded" placeholder="Email Address" required>             
-          </label>
+          <label for='email' class="visuallyhidden input-control">
+              <input  type="email" class="input-rounded" placeholder="Email address" value=""  name ="email"  id="email" required>             
+              
+            </label>
             <label for='message'class="visuallyhidden">
-            <textarea name="message" maxlength="500" placeholder="Write your message here"  required></textarea>
+            <textarea name="message" maxlength="500" placeholder="Write your message here"required></textarea>
           </label>
-          <div class="call-to-action-contact"><button type="submit" OnClick ="sendForm()" class="call-to-action">Get in touch</button><div>
+          <div class="call-to-action-contact"><button type="submit" class="call-to-action-form">Get in touch</button><span class="errorMessage"></span><div>
       </form>
     </section>
     <script src="./js/main.js"></script>
     <script src="./js/modal.js"></script>
-
+    <script src="./js/validate.js"></script>
 </body>
 </html>
