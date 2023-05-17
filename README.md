@@ -105,10 +105,10 @@ Open index.html using a live server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment <a name="live-demo"></a>
+### Demo <a name="live-demo"></a>
 
 You can deploy this project using:
-https://katended.github.io/mobilefirstproject2/Index.html
+[Demo](https://katended.github.io/Mobile-First-Portfolio-Project/Index.html)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
