@@ -2,19 +2,19 @@ const bodyTag = document.querySelector('body');
 const worksContainter = document.getElementById('portfolio');
 const defaultWorks = [
   {
-    title: 'Tonic',
-    subtitle: 'CANOPY',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: 'To-Do List',
+    subtitle: 'FACEBOOK',
+    description: "This project showcases my skills of webpack, and javascript. A user can plan daily tasks by adding them to the list and mark them complete when completed.",
     imgdesk: './images/snapshoot-portfolio-desktop1.png',
     imgmob: './images/snapshoot-portfolio-mobile1.png',
     employment: ['Back End Dev', '2015'],
-    technologies: ['HTML', 'CCS', 'JavaScript', 'Ruby', 'Bootstrap'],
+    technologies: ['HTML', 'CCS', 'JavaScript', 'Bootstrap'],
     dataset: 0,
   },
   {
-    title: 'Multi-Post Stories',
+    title: 'Dancing Africa',
     subtitle: 'FACEBOOK',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    description: "This is conference website that features different dancing teams.",
     imgdesk: './images/snapshoot-portfolio-desktop2.png',
     imgmob: './images/snapshoot-portfolio-mobile2.png',
     employment: ['Full Stack Dev', '2015'],
@@ -79,13 +79,30 @@ const createDefaultWorks = (defaultWorks) => {
   cardContainter.appendChild(imgDiv);
   // create image
   const imgDesk = createElement('img');
+  const alink1  = createElement('a');
+  const alink2  = createElement('a');
+  if(defaultWorks.dataset===0)
+  alink1.setAttribute('href','https://katended.github.io/To-do-List/index.html');
+  alink2.setAttribute('href','https://katended.github.io/To-do-List/index.html');
+  
+  if(defaultWorks.dataset===1)
+  alink1.setAttribute('href','https://katended.github.io/dancing-africa/index.html');
+  alink2.setAttribute('href','https://katended.github.io/dancing-africa/index.html');
+  
+
   imgDesk.src = defaultWorks.imgdesk;
   imgDesk.classList.add('imgalin', `imgdesk${parseInt(defaultWorks.dataset + 1, 10)}`);
-  imgDiv.appendChild(imgDesk);
-  const imgMob = createElement('img');
+//alink1.innerHTML =imgDesk;
+  alink1.appendChild(imgDesk);
+  imgDiv.appendChild(alink1);
+ 
+
+  const imgMob = createElement('img');  
   imgMob.src = defaultWorks.imgmob;
   imgMob.classList.add('imgalin', `imgmob${parseInt(defaultWorks.dataset + 1, 10)}`);
-  imgDiv.appendChild(imgMob);
+ // alink2.innerHTML = imgMob;
+  alink2.appendChild(imgMob);
+  imgDiv.appendChild(alink2);
   // create image div
   const subSectionDiv = createElement('div', 'grid-element');
   cardContainter.appendChild(subSectionDiv);
@@ -113,8 +130,8 @@ const createDefaultWorks = (defaultWorks) => {
   const technologiesList = createList(defaultWorks.technologies);
   sectionTechSpan.appendChild(technologiesList);
   // 'see project' button
-  const seeProjectBtn = createButton('project-btn', defaultWorks.dataset, 'See Project');
-  seeProjectBtn.classList.add('call-to-action');
+  const seeProjectBtn = createButton('project-btn', defaultWorks.dataset, 'See Project'); 
+  seeProjectBtn.classList.add('call-to-action');  
   subSectionDiv.appendChild(seeProjectBtn);
   return cardContainter;
 };
